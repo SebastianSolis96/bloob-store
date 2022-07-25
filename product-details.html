@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos - Bloob Store</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <div class="">
+        <section class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img class="main-logo" src="images/logo.png" alt="logo"></a>
+                </div>
+                <nav class="nav-list">
+                    <ul class="menu-list" id="menuItems">
+                        <li><a href="index.html" class="a-style">Inicio</a></li>
+                        <li><a href="products.html" class="a-style">Productos</a></li>
+                        <li><a href="" class="a-style">Acerca de</a></li>
+                        <li><a href="" class="a-style">Contacto</a></li>
+                        <li><a href="account.html" class="a-style">Mi cuenta</a></li>
+                    </ul>
+                </nav>
+                <a href="cart.html"><img class="nav-item-cart" src="images/cart.png" alt="cart"></a>
+                <img class="menu-icon" src="images/menu.png" alt="menu-icon" id="menuResponsive">
+            </div>
+        </section>
+    </div>
+
+    <!-- Detalle Producto -->
+    <section class="small-container single-product">
+        <div class="row">
+            <div class="col-2">
+                <img class="img-product-detail" src="images/gallery-1.jpg" alt="product" id="productDetailBig">
+
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img class="img-product-detail small-img" src="images/gallery-1.jpg" alt="">
+                    </div>
+                    <div class="small-img-col">
+                        <img class="img-product-detail small-img" src="images/gallery-2.jpg" alt="">
+                    </div>
+                    <div class="small-img-col">
+                        <img class="img-product-detail small-img" src="images/gallery-3.jpg" alt="">
+                    </div>
+                    <div class="small-img-col">
+                        <img class="img-product-detail small-img" src="images/gallery-4.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-2">
+                <p class="normal-text">Inicio / Camisetas</p>
+                <p class="big-text text-bold">Camiseta Roja Printed por HRX</p>
+                <p class="medium-text text-bold">$50.00</p>
+
+                <div class="select-size-box">
+                
+                    <div class="options-sizes-container" id="optionsContainer">
+                        <div class="option">
+                            <input type="radio" class="radio-size" name="category" id="default">
+                            <label for="default">XXL</label>
+                        </div>
+                        <div class="option">
+                            <input type="radio" class="radio-size" name="category" id="price">
+                            <label for="default">XL</label>
+                        </div>
+                        <div class="option">
+                            <input type="radio" class="radio-size" name="category" id="popular">
+                            <label for="default">L</label>
+                        </div>
+                        <div class="option">
+                            <input type="radio" class="radio-size" name="category" id="views">
+                            <label for="default">M</label>
+                        </div>
+                        <div class="option">
+                            <input type="radio" class="radio-size" name="category" id="sales">
+                            <label for="default">S</label>
+                        </div>
+                    </div>
+    
+                    <div class="selected-size" id="selected">
+                        -Seleccione la talla-
+                    </div>
+                </div>
+                <input type="number" class="select-number" name="quantity" id="quantity" value="1">
+                <p><a href="" class="btn-add-cart a-style">Añadir al carrito</a></p>
+                <p class="medium-text text-bold">Detalles del Producto <i class="fa fa-indent"></i> </p>
+                <p class="normal-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut molestias eligendi recusandae libero 
+                    sint aliquam maxime voluptatibus quo ducimus ipsam explicabo voluptatem sit facere fugiat eveniet, repudiandae, 
+                    nisi asperiores id.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Título -->
+    <section class="small-container">
+        <div class="row row-2">
+            <p class="medium-text text-bold">Relacionados</h2>
+            <p class="normal-text">Ver Más</p>
+        </div>
+    </section>
+
+    <!-- Más Productos -->
+    <section class="small-container">
+
+        <div class="row">
+            <div class="col-4">
+                <img src="images/product-9.jpg" alt="">
+                <h3 class="products-tittle">Camisetas Rojas Printed</h3>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p class="normal-text">$50.00</p>
+            </div>
+
+            <div class="col-4">
+                <img src="images/product-10.jpg" alt="">
+                <h3 class="products-tittle">Camisetas Rojas Printed</h3>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p class="normal-text">$50.00</p>
+            </div>
+
+            <div class="col-4">
+                <img src="images/product-11.jpg" alt="">
+                <h3 class="products-tittle">Camisetas Rojas Printed</h3>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p class="normal-text">$50.00</p>
+            </div>
+
+            <div class="col-4">
+                <img src="images/product-12.jpg" alt="">
+                <h3 class="products-tittle">Camisetas Rojas Printed</h3>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p class="normal-text">$50.00</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <section class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Descarga Nuestra App</h3>
+                    <p>Disponible para Android y iOS.</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png" alt="">
+                        <img src="images/app-store.png" alt="">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/logo-white.png" alt="logo-white">
+                    <p>Solo aquí encontrarás los mejores accesorios y vestimenta para que impongas tu estilo en cada entrenamiento. </p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Enlaces - Bloob -</h3>
+                    <ul class="footer-ul">
+                        <li>Cupones</li>
+                        <li>Blog</li>
+                        <li>Políticas de devolución</li>
+                        <li>Trabaja con nosotros</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Nuestras Redes</h3>
+                    <ul class="footer-ul">
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2022 - <a class="a-style" href="https://twitter.com/sebascript_" target="_blank">@sebascript_</a></p>
+        </div>
+    </section>
+</body>
+<script src="main.js"></script>
+</html>

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras - Bloob Store</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <div class="">
+        <section class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img class="main-logo" src="images/logo.png" alt="logo"></a>
+                </div>
+                <nav class="nav-list">
+                    <ul class="menu-list" id="menuItems">
+                        <li><a href="index.html" class="a-style">Inicio</a></li>
+                        <li><a href="products.html" class="a-style">Productos</a></li>
+                        <li><a href="" class="a-style">Acerca de</a></li>
+                        <li><a href="" class="a-style">Contacto</a></li>
+                        <li><a href="account.html" class="a-style">Mi cuenta</a></li>
+                    </ul>
+                </nav>
+                <a href="cart.html"><img class="nav-item-cart" src="images/cart.png" alt="cart"></a>
+                <img class="menu-icon" src="images/menu.png" alt="menu-icon" id="menuResponsive">
+            </div>
+        </section>
+    </div>
+
+    <!-- Productos en el carrito -->
+    <section class="small-container cart-page">
+        <table class="table-items">
+            <tr>
+                <th>Producto</th>
+                <th>Cantidad</th>
+                <th>Subtotal</th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="images/buy-1.jpg" alt="buy">
+                        <div>
+                            <p class="medium-text">Camiseta Roja Printed</p>
+                            <small>Price: $50.00</small>
+                            <a href="" class="a-style">Eliminar</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" name="" id="" value="1"></td>
+                <td>$50.00</td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="images/buy-2.jpg" alt="buy">
+                        <div>
+                            <p class="medium-text">Zapatos Deportivos Negros</p>
+                            <small>Price: $100.00</small>
+                            <a href="" class="a-style">Eliminar</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" name="" id="" value="1"></td>
+                <td>$100.00</td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="images/buy-3.jpg" alt="buy">
+                        <div>
+                            <p class="medium-text">Pantalón deportivo Gris</p>
+                            <small>Price: $45.00</small>
+                            <a href="" class="a-style">Eliminar</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" name="" id="" value="1"></td>
+                <td>$45.00</td>
+            </tr>
+        </table>
+
+        <div class="total-price">
+            <table class="table-price">
+                <tr>
+                    <td>Subtotal</td>
+                    <td>$195.00</td>
+                </tr>
+                <tr>
+                    <td>I.V.A</td>
+                    <td>$23.40</td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td>$218.40</td>
+                </tr>
+            </table>
+        </div>
+
+    </section>
+    
+    <!-- Footer -->
+    <section class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Descarga Nuestra App</h3>
+                    <p>Disponible para Android y iOS.</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png" alt="">
+                        <img src="images/app-store.png" alt="">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/logo-white.png" alt="logo-white">
+                    <p>Solo aquí encontrarás los mejores accesorios y vestimenta para que impongas tu estilo en cada entrenamiento. </p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Enlaces - Bloob -</h3>
+                    <ul class="footer-ul">
+                        <li>Cupones</li>
+                        <li>Blog</li>
+                        <li>Políticas de devolución</li>
+                        <li>Trabaja con nosotros</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Nuestras Redes</h3>
+                    <ul class="footer-ul">
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2022 - <a class="a-style" href="https://twitter.com/sebascript_" target="_blank">@sebascript_</a></p>
+        </div>
+    </section>
+</body>
+<script src="main.js"></script>
+</html>
